@@ -1,0 +1,27 @@
+{
+	"name": "al-asad-theme",
+	"displayName": "Al Asad Theme for VS Code",
+	"description": "Color theme designed to match my personal choice.",
+	"version": "1.0.0",
+	"publisher": "Ragib Al Asad",
+	"icon": "icon.png",
+	"repository": {
+		"type": "GitHub",
+		"url": "https://github.com/SolarLiner/vscode-arc-theme"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Al Asad Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/al-asad-theme.json"
+			}
+		]
+	}
+}
